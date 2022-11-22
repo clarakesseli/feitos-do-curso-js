@@ -99,8 +99,8 @@ function exibeMensagensDeErro(erros) {
     });
 }
 
-function adicionaPersonagemNaTabela(atleta) {
-    var personagemTr = montaTr(atleta);
+function adicionaPersonagemNaTabela(personagem) {
+    var personagemTr = montaTr(personagem);
     var tabela = document.querySelector("#tabela-personagens");
     tabela.appendChild(personagemTr);
 }
