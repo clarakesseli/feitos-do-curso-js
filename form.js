@@ -44,7 +44,7 @@ function montaTr(personagem) {
    personagemTr.appendChild(montaTd(personagem.poder, "info-poder"));
   personagemTr.appendChild(montaTd(personagem.elemento, "info-elemento"));
   personagemTr.appendChild(montaTd(personagem.arma, "info-arma"));
- personage,Tr.appendChild(montaTd(personagem.stamina, "info-stamina"));
+ personagemTr.appendChild(montaTd(personagem.stamina, "info-stamina"));
 
     return personagemTr;
 }
