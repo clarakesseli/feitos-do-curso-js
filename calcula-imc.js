@@ -1,7 +1,7 @@
 var titulo = document.querySelector(".titulo");
 titulo.textContent = "Academia AK";
 
-var pacientes = document.querySelectorAll(".atleta");
+var atletas = document.querySelectorAll(".atleta");
 
 for (var i = 0; i < atletas.length; i++) {
 
