@@ -5,7 +5,7 @@ var pacientes = document.querySelectorAll(".atleta");
 
 for (var i = 0; i < atletas.length; i++) {
 
-    var paciente = atletas[i];
+    var atleta = atletas[i];
 
     var tdPeso = atleta.querySelector(".info-peso");
     var peso = tdPeso.textContent;
@@ -22,14 +22,14 @@ for (var i = 0; i < atletas.length; i++) {
         console.log("Peso inválido!");
         pesoEhValido = false;
         tdImc.textContent = "Peso inválido";
-        paciente.classList.add("atleta-invalido");
+        atleta.classList.add("atleta-invalido");
     }
 
     if (!alturaEhValida) {
         console.log("Altura inválida!");
         alturaEhValida = false;
         tdImc.textContent = "Altura inválida";
-        paciente.classList.add("atleta-invalido");
+        atleta.classList.add("atleta-invalido");
     }
 
     if (pesoEhValido && alturaEhValida) {
